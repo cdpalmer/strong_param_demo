@@ -1,6 +1,6 @@
 == Strong Params Demo
 
-  I've used this super basic Rails app to explain the need to sanitize your params
+I've used this super basic Rails app to explain the need to sanitize your params
 in your Rails application.
 
 === Chapters to the talk
