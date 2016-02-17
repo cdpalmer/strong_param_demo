@@ -1,28 +1,11 @@
-== README
+== Strong Params Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  I've used this super basic Rails app to explain the need to sanitize your params
+in your Rails application.
 
-Things you may want to cover:
+=== Chapters to the talk
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  * What are params in a web application.
+  * How are they sent to the server, typically?
+  * How a client controls what params are sent to the server.
+  * What strong params does to whitelist what params a client can use in a form.
